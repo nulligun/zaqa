@@ -59,7 +59,7 @@ KEYMAPS(
 /* Re-enable astyle's indent enforcement */
 // *INDENT-ON*
 
-static void keypressMacro(uint8_t keyState) {
+/* static void keypressMacro(uint8_t keyState) {
   if (keyToggledOn(keyState)) {
     LEDControl.setCrgbAt(Macros.row, Macros.col, CRGB(0, 0, 0));
     int8_t k = KeyboardHardware.getLedIndex(Macros.row, Macros.col);
@@ -79,7 +79,7 @@ const macro_t *macroAction(uint8_t macroIndex, uint8_t keyState) {
     break;
   }
   return MACRO_NONE;
-}
+} */
 
 static void clearAll(uint8_t combo_index) {
   LEDControl.set_all_leds_to({0, 0, 0});
