@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "node -r esm ./src/index.js", 0
