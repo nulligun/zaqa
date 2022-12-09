@@ -18,7 +18,7 @@
     "color-convert": "^2.0.0",
     "config": "^3.0.1",
     "esm": "^3.2.25",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "open": "^8.0.2",
     "opn": "^6.0.0",
     "trace-unhandled": "^2.0.1"
